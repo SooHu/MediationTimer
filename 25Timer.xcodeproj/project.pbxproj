@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC099D31B2C55EF0090A3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC099D21B2C55EF0090A3D9 /* main.m */; };
+		CDC099D61B2C55EF0090A3D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC099D51B2C55EF0090A3D9 /* AppDelegate.m */; };
+		CDC099D91B2C55EF0090A3D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC099D81B2C55EF0090A3D9 /* ViewController.m */; };
+		CDC099DC1B2C55EF0090A3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC099DA1B2C55EF0090A3D9 /* Main.storyboard */; };
+		CDC099DE1B2C55EF0090A3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC099DD1B2C55EF0090A3D9 /* Assets.xcassets */; };
+		CDC099E11B2C55EF0090A3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC099DF1B2C55EF0090A3D9 /* LaunchScreen.storyboard */; };
+		CDC099EC1B2C55EF0090A3D9 /* _5TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC099EB1B2C55EF0090A3D9 /* _5TimerTests.m */; };
+		CDC099F71B2C55EF0090A3D9 /* _5TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC099F61B2C55EF0090A3D9 /* _5TimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC099E81B2C55EF0090A3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC099C61B2C55EF0090A3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC099CD1B2C55EF0090A3D9;
+			remoteInfo = 25Timer;
+		};
+		CDC099F31B2C55EF0090A3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC099C61B2C55EF0090A3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC099CD1B2C55EF0090A3D9;
+			remoteInfo = 25Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC099CE1B2C55EF0090A3D9 /* 25Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 25Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC099D21B2C55EF0090A3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC099D41B2C55EF0090A3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDC099D51B2C55EF0090A3D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC099D71B2C55EF0090A3D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDC099D81B2C55EF0090A3D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDC099DB1B2C55EF0090A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC099DD1B2C55EF0090A3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC099E01B2C55EF0090A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC099E21B2C55EF0090A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC099E71B2C55EF0090A3D9 /* 25TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 25TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC099EB1B2C55EF0090A3D9 /* _5TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5TimerTests.m; sourceTree = "<group>"; };
+		CDC099ED1B2C55EF0090A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC099F21B2C55EF0090A3D9 /* 25TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 25TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC099F61B2C55EF0090A3D9 /* _5TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5TimerUITests.m; sourceTree = "<group>"; };
+		CDC099F81B2C55EF0090A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC099CB1B2C55EF0090A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099E41B2C55EF0090A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099EF1B2C55EF0090A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC099C51B2C55EF0090A3D9 = {
+			isa = PBXGroup;
+			children = (
+				CDC099D01B2C55EF0090A3D9 /* 25Timer */,
+				CDC099EA1B2C55EF0090A3D9 /* 25TimerTests */,
+				CDC099F51B2C55EF0090A3D9 /* 25TimerUITests */,
+				CDC099CF1B2C55EF0090A3D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC099CF1B2C55EF0090A3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC099CE1B2C55EF0090A3D9 /* 25Timer.app */,
+				CDC099E71B2C55EF0090A3D9 /* 25TimerTests.xctest */,
+				CDC099F21B2C55EF0090A3D9 /* 25TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC099D01B2C55EF0090A3D9 /* 25Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CDC099D41B2C55EF0090A3D9 /* AppDelegate.h */,
+				CDC099D51B2C55EF0090A3D9 /* AppDelegate.m */,
+				CDC099D71B2C55EF0090A3D9 /* ViewController.h */,
+				CDC099D81B2C55EF0090A3D9 /* ViewController.m */,
+				CDC099DA1B2C55EF0090A3D9 /* Main.storyboard */,
+				CDC099DD1B2C55EF0090A3D9 /* Assets.xcassets */,
+				CDC099DF1B2C55EF0090A3D9 /* LaunchScreen.storyboard */,
+				CDC099E21B2C55EF0090A3D9 /* Info.plist */,
+				CDC099D11B2C55EF0090A3D9 /* Supporting Files */,
+			);
+			path = 25Timer;
+			sourceTree = "<group>";
+		};
+		CDC099D11B2C55EF0090A3D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC099D21B2C55EF0090A3D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC099EA1B2C55EF0090A3D9 /* 25TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC099EB1B2C55EF0090A3D9 /* _5TimerTests.m */,
+				CDC099ED1B2C55EF0090A3D9 /* Info.plist */,
+			);
+			path = 25TimerTests;
+			sourceTree = "<group>";
+		};
+		CDC099F51B2C55EF0090A3D9 /* 25TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC099F61B2C55EF0090A3D9 /* _5TimerUITests.m */,
+				CDC099F81B2C55EF0090A3D9 /* Info.plist */,
+			);
+			path = 25TimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC099CD1B2C55EF0090A3D9 /* 25Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC099FB1B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25Timer" */;
+			buildPhases = (
+				CDC099CA1B2C55EF0090A3D9 /* Sources */,
+				CDC099CB1B2C55EF0090A3D9 /* Frameworks */,
+				CDC099CC1B2C55EF0090A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 25Timer;
+			productName = 25Timer;
+			productReference = CDC099CE1B2C55EF0090A3D9 /* 25Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC099E61B2C55EF0090A3D9 /* 25TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC099FE1B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25TimerTests" */;
+			buildPhases = (
+				CDC099E31B2C55EF0090A3D9 /* Sources */,
+				CDC099E41B2C55EF0090A3D9 /* Frameworks */,
+				CDC099E51B2C55EF0090A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC099E91B2C55EF0090A3D9 /* PBXTargetDependency */,
+			);
+			name = 25TimerTests;
+			productName = 25TimerTests;
+			productReference = CDC099E71B2C55EF0090A3D9 /* 25TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDC099F11B2C55EF0090A3D9 /* 25TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC09A011B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25TimerUITests" */;
+			buildPhases = (
+				CDC099EE1B2C55EF0090A3D9 /* Sources */,
+				CDC099EF1B2C55EF0090A3D9 /* Frameworks */,
+				CDC099F01B2C55EF0090A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC099F41B2C55EF0090A3D9 /* PBXTargetDependency */,
+			);
+			name = 25TimerUITests;
+			productName = 25TimerUITests;
+			productReference = CDC099F21B2C55EF0090A3D9 /* 25TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC099C61B2C55EF0090A3D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HuS;
+				TargetAttributes = {
+					CDC099CD1B2C55EF0090A3D9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CDC099E61B2C55EF0090A3D9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDC099CD1B2C55EF0090A3D9;
+					};
+					CDC099F11B2C55EF0090A3D9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDC099CD1B2C55EF0090A3D9;
+					};
+				};
+			};
+			buildConfigurationList = CDC099C91B2C55EF0090A3D9 /* Build configuration list for PBXProject "25Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC099C51B2C55EF0090A3D9;
+			productRefGroup = CDC099CF1B2C55EF0090A3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC099CD1B2C55EF0090A3D9 /* 25Timer */,
+				CDC099E61B2C55EF0090A3D9 /* 25TimerTests */,
+				CDC099F11B2C55EF0090A3D9 /* 25TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC099CC1B2C55EF0090A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC099E11B2C55EF0090A3D9 /* LaunchScreen.storyboard in Resources */,
+				CDC099DE1B2C55EF0090A3D9 /* Assets.xcassets in Resources */,
+				CDC099DC1B2C55EF0090A3D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099E51B2C55EF0090A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099F01B2C55EF0090A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC099CA1B2C55EF0090A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC099D91B2C55EF0090A3D9 /* ViewController.m in Sources */,
+				CDC099D61B2C55EF0090A3D9 /* AppDelegate.m in Sources */,
+				CDC099D31B2C55EF0090A3D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099E31B2C55EF0090A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC099EC1B2C55EF0090A3D9 /* _5TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC099EE1B2C55EF0090A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC099F71B2C55EF0090A3D9 /* _5TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC099E91B2C55EF0090A3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC099CD1B2C55EF0090A3D9 /* 25Timer */;
+			targetProxy = CDC099E81B2C55EF0090A3D9 /* PBXContainerItemProxy */;
+		};
+		CDC099F41B2C55EF0090A3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC099CD1B2C55EF0090A3D9 /* 25Timer */;
+			targetProxy = CDC099F31B2C55EF0090A3D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC099DA1B2C55EF0090A3D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC099DB1B2C55EF0090A3D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC099DF1B2C55EF0090A3D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC099E01B2C55EF0090A3D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC099F91B2C55EF0090A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDC099FA1B2C55EF0090A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC099FC1B2C55EF0090A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 25Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC099FD1B2C55EF0090A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 25Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDC099FF1B2C55EF0090A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 25TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/25Timer.app/25Timer";
+			};
+			name = Debug;
+		};
+		CDC09A001B2C55EF0090A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 25TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/25Timer.app/25Timer";
+			};
+			name = Release;
+		};
+		CDC09A021B2C55EF0090A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 25TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 25Timer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDC09A031B2C55EF0090A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 25TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-5TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 25Timer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC099C91B2C55EF0090A3D9 /* Build configuration list for PBXProject "25Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC099F91B2C55EF0090A3D9 /* Debug */,
+				CDC099FA1B2C55EF0090A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC099FB1B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC099FC1B2C55EF0090A3D9 /* Debug */,
+				CDC099FD1B2C55EF0090A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDC099FE1B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC099FF1B2C55EF0090A3D9 /* Debug */,
+				CDC09A001B2C55EF0090A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDC09A011B2C55EF0090A3D9 /* Build configuration list for PBXNativeTarget "25TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC09A021B2C55EF0090A3D9 /* Debug */,
+				CDC09A031B2C55EF0090A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC099C61B2C55EF0090A3D9 /* Project object */;
+}
