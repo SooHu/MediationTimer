@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HUSTimeCountDownLabel.h"
+#import "CircleProgressView.h"
 
 @interface ViewController : UIViewController
-
-
+{
+    HUSTimeCountDownLabel *timerLabel;
+}
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property (weak, nonatomic) IBOutlet UIButton *resetButton;
+//circleProgressView
+@property (weak, nonatomic) IBOutlet CircleProgressView *circleProgressView;
+//背景图片
+@property (weak, nonatomic) IBOutlet UIImageView *backgoundImageView;
 @end
 

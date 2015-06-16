@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    //设置导航栏颜色
+//    [[UINavigationBar appearance] setBarTintColor:[UIColor clearColor]];
+//    [UINavigationBar appearance].translucent = NO;
+    //去掉导航栏下滑线
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage: [[UIImage alloc] init]];
+    //设置状态栏样式
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     return YES;
 }
 
